@@ -126,8 +126,6 @@ nav {
     background-color: black;
 }
 
-
-
 .sliderItem:nth-child(1) .sliderBg {
     background-color: #369e62;
 }
@@ -323,11 +321,11 @@ label {
 }
 
 .productDesc {
-    font-style: 24px;
+    font-size: 24px;
     color: gray
 }
 
-.colors,.sizes {
+.colors, .sizes {
     display: flex;
     margin-bottom: 20px;
 }
@@ -409,6 +407,66 @@ label {
     font-weight: 600;
     cursor: pointer;
 }
+
+footer {
+    display: flex;
+}
+
+.footerLeft {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.fMenuTitle {
+    font-size: 22px;
+}
+
+.fMenuList {
+    padding: 0;
+    list-style: none;
+}
+
+.fListItem {
+    margin-bottom: 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+.footerRight {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fInput {
+    padding: 5px;
+}
+
+.fButton {
+    padding: 5px;
+    background-color: black;
+    color: white
+}
+
+.fIcons {
+    display: flex;
+}
+
+.fIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.copyright {
+    font-weight: 400;
+    font-size: 14px;
+}
+
 
 
 
